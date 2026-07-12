@@ -1,7 +1,7 @@
 {
   "framework": "vite",
   "buildCommand": "pnpm --filter @workspace/smartlib-pro build",
-  "outputDirectory": "artifacts/smartlib-pro/dist/public",
+  "outputDirectory": "artifacts/smartlib-pro/dist",
   "rewrites": [
     {
       "source": "/(.*)",
