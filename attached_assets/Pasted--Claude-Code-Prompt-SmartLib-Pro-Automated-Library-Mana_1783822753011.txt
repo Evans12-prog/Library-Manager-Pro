@@ -1,0 +1,103 @@
+# Claude Code Prompt – SmartLib Pro (Automated Library Management System)
+
+You are an expert Full-Stack Software Engineer, Software Architect, UI/UX Designer, and Database Architect.
+
+Build a **production-ready, professional Automated Library Management System** called **SmartLib Pro**. The application should be scalable, secure, responsive, and follow modern software engineering best practices. Generate clean, modular, well-commented code with no placeholder implementations unless explicitly stated.
+
+## Technology Stack
+
+* **Frontend:** HTML5, CSS3, JavaScript (ES6+), React (Vite), React Router, Bootstrap 5, React Icons, Axios, React Toastify, Chart.js
+* **Backend:** Supabase (Authentication, PostgreSQL Database, Storage, Row Level Security, Realtime)
+
+## User Roles
+
+Implement secure role-based authentication and authorization for:
+
+* Administrator
+* Librarian
+* Student
+
+Each role should have protected routes and permissions.
+
+## Core Features
+
+* Secure login, logout, forgot/reset password
+* Admin, Librarian, and Student dashboards
+* Book management (CRUD, search, filter, categories, authors, publishers, ISBN, barcode, book cover)
+* Student and Librarian management
+* Borrow, Return, Renew, and Reserve books
+* Automatic due-date and fine calculation
+* Inventory tracking
+* Notifications
+* Reports and analytics with charts
+* Global search
+* User profiles and settings
+* Activity logs
+* Responsive design with dark mode support
+
+## Database
+
+Design a normalized PostgreSQL database with proper relationships, foreign keys, indexes, constraints, and RLS policies. Include tables such as:
+
+* profiles
+* roles
+* books
+* authors
+* categories
+* publishers
+* students
+* librarians
+* borrow_records
+* reservations
+* fines
+* notifications
+* activity_logs
+* system_settings
+
+Generate SQL scripts and seed data.
+
+## UI/UX
+
+Create a modern SaaS-style interface with:
+
+* Sidebar
+* Navbar
+* Dashboard cards
+* Responsive tables
+* Charts
+* Search
+* Pagination
+* Modals
+* Toast notifications
+* Loading states
+* Empty states
+* 404 and error pages
+
+Use a professional blue-and-white theme with clean spacing, icons, and subtle animations.
+
+## Code Structure
+
+Organize the project using a clean folder structure with reusable components, hooks, contexts, services, utilities, layouts, and pages. Follow React best practices, SOLID principles where appropriate, and maintain readable, maintainable code.
+
+## Documentation
+
+Generate:
+
+* README
+* Installation guide
+* Environment configuration
+* Database schema
+* Deployment guide
+* User manual
+
+## Development Process
+
+Build the application **incrementally**, one complete feature at a time. For every step:
+
+1. Show the file path.
+2. Generate the complete code.
+3. Explain how the code works.
+4. Explain how it integrates with the rest of the project.
+5. Wait for confirmation before continuing.
+
+The final result should look and function like a commercial library management system suitable for universities, colleges, schools, or public libraries.

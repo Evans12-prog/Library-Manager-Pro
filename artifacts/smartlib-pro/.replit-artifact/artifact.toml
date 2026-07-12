@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "SmartLib Pro"
+version = "1.0.0"
+id = "artifacts/smartlib-pro"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23393
+
+[services.development]
+run = "pnpm --filter @workspace/smartlib-pro run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/smartlib-pro", "run", "build" ]
+publicDir = "artifacts/smartlib-pro/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23393"
+BASE_PATH = "/"
