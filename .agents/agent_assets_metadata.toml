@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "fC3ZIMlK44OwhTgpbhOAB"
+uri = "file://smartlib-pro-guide.pdf"
+type = "pdf"
+title = "SmartLib Pro – System Guide (PDF)"
