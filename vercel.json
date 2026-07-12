@@ -1,6 +1,5 @@
 {
   "framework": "vite",
-  "rootDirectory": "artifacts/smartlib-pro",
   "buildCommand": "pnpm build",
   "outputDirectory": "dist",
   "rewrites": [
