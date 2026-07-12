@@ -48,6 +48,7 @@ export default defineConfig({
       isVercelBuild ? "dist" : "dist/public",
     ),
     emptyOutDir: true,
+    sourcemap: false,
   },
   server: {
     port,

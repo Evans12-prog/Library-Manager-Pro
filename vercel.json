@@ -1,5 +1,12 @@
 {
   "framework": "vite",
-  "buildCommand": "pnpm --filter @workspace/smartlib-pro build",
-  "outputDirectory": "artifacts/smartlib-pro/dist"
+  "rootDirectory": "artifacts/smartlib-pro",
+  "buildCommand": "pnpm build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
